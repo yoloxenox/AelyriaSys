@@ -9,10 +9,10 @@
 		"verified": "11"
 	  },
 	"esmodules": [
-		"aelyria.js"
+		"scripts/aelyria.js"
 	],
 	"styles": [
-		"aelyria.css"
+		"styles/aelyria.css"
 	],
 	"packs": [
 

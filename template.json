@@ -1,4 +1,21 @@
 {
     "Actor":{},
-    "Item":{}
+    "Item":{
+        "types": [
+            "weapon"
+        ],
+        "templates": {
+            "itemDescription":{
+                "description":""
+            }
+        },
+        "weapon":{
+            "templates": [
+                "itemDescription"
+            ],
+            "damage":0,
+            "modifier":0,
+            "price":0
+        }
+    }
 }
