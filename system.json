@@ -1,0 +1,25 @@
+{
+	"name": "aelyria",
+	"title": "Aelyria",
+	"description": "A system to play with Aelyria games.",
+	"version": 0.01,
+	"author": "yoloxenox",
+	"minimumCoreVersion": "11.315",
+	"compatibleCoreVersion": "11.315",
+	"esmodules": [
+		"aelyria.js"
+	],
+	"styles": [
+		"aelyria.css"
+	],
+	"packs": [
+
+	],
+	"languages":[
+
+	],
+	"gridDistance": 5,
+	"gridUnits": "m",
+	"initiative":"1d10+@initiative"
+
+}
