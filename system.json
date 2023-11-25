@@ -4,8 +4,10 @@
 	"description": "A system to play with Aelyria games.",
 	"version": 0.01,
 	"author": "yoloxenox",
-	"minimumCoreVersion": "11.315",
-	"compatibleCoreVersion": "11.315",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "11"
+	  },
 	"esmodules": [
 		"aelyria.js"
 	],
