@@ -1,0 +1,39 @@
+{
+  "id": "aelyria",
+  "title": "Aelyria",
+  "description": "The Aelyria system for FoundryVTT!",
+  "version": "0.1",
+  "compatibility": {
+    "minimum": 10,
+    "verified": "10.287",
+    "maximum": 11
+  },
+  "authors": [{
+    "name": "Yoloxenox"
+  }],
+  "esmodules": ["module/aelyria.mjs"],
+  "styles": ["css/aelyria.css"],
+  "scripts": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "gridDistance": 5,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt",
+  "changelog": "CHANGELOG.md"
+}

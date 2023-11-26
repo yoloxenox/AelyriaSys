@@ -1,0 +1,252 @@
+{
+  "Actor": {
+    "types": ["character", "npc"],
+    "templates": {
+      "base": {
+        "health": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "power": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        },
+        "biography": ""
+      }
+    },
+    "character": {
+      "templates": ["base"],
+      "attributes": {
+        "level": {
+          "value": 1
+        }
+      },
+      "abilities": {
+        "dex": {
+          "value": 0
+        },
+        "agi": {
+          "value": 0
+        },
+        "perc": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "cons": {
+          "value": 0
+        },
+        "char": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        },
+        "men": {
+          "value": 0
+        },
+        "pow": {
+          "value": 0
+        }
+      },
+      "skills": {
+        "athletisme": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "acrobatie": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "arme1": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "arme2": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "arme3": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "artisanat1": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "artisanat2": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "artisanat3": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "bricolage": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "commandement": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "concentration": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "connaissance": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "crochetage": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "detectionMagique": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "esquive": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "furtivite": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "intimidation": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "mystere": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "negociation": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "observation": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "parade": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "passePasse": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "precisionMagique": {
+          "value": 1,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "premiersSoins": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "pugilat": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "seduction": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "subterfuge": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        },
+        "vigilance": {
+          "value": 0,
+          "bonus":0,
+          "doneTime":0,
+          "timeToDo":0
+        }
+    },
+    "npc": {
+      "templates": ["base"],
+      "cr": 0
+    }
+  },
+  "Item": {
+    "types": ["item", "feature", "spell"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "item": {
+      "templates": ["base"],
+      "quantity": 1,
+      "weight": 0,
+      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+    },
+    "feature": {
+      "templates": ["base"]
+    },
+    "spell": {
+      "templates": ["base"],
+      "spellLevel": 1
+    }
+  }
+}
+}
