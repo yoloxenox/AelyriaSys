@@ -1,0 +1,22 @@
+<form class="{{cssClass}}" autocomplete="off">
+  <header claass="sheet-header">
+    
+      <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64"/>
+      <h1><input name="name" type="text" value="{{actor.name}}" placeholder="Name"/></h1>
+
+  </header>
+
+  {{!-- Sheet Body --}}
+  <section class="sheet-body">
+  <label>Attributes
+    {{#each system.abilities as |ability key|}}
+    <label for="system.abilities.{{key}}.value">
+
+      <input type="text" name="system.abilities.{{key}}.value" data-dtype="Number" value="{{ability.value}}"/>
+
+    </label>
+    
+  </label>
+  </section>
+
+</form>

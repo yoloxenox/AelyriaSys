@@ -225,10 +225,11 @@
     "npc": {
       "templates": ["base"],
       "cr": 0
+      }
     }
   },
   "Item": {
-    "types": ["item", "feature", "spell"],
+    "types": ["item", "weapon"],
     "templates": {
       "base": {
         "description": ""
@@ -237,16 +238,13 @@
     "item": {
       "templates": ["base"],
       "quantity": 1,
-      "weight": 0,
-      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+      "weight": 0
     },
-    "feature": {
-      "templates": ["base"]
-    },
-    "spell": {
+    "weapon": {
       "templates": ["base"],
-      "spellLevel": 1
+      "quantity": 1,
+      "weight": 0,
+      "damage": 0
     }
   }
-}
 }
